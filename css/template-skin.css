@@ -1,0 +1,24 @@
+<![CDATA[
+/*=====================================
+= Layout Styles
+=====================================*/
+body#layout #main-wrapper { width: 884px!important; } 
+body#layout #Sidebar { float: right; width: 293px; padding: 0px!important; margin: 0px!important; } 
+body#layout #rsidebar-wrapper { width: 300px; }
+body#layout #rsidebar-wrapper { margin-right: 6px; } 
+body#layout .tabs-widget { display: none; }
+body#layout .logo:before {content: 'Templateism Admin Panel'; }
+body#layout footer:before{content: 'Footer Widgets'; }
+body#layout #main-wrapper:before{content: 'Post Body'; }
+body#layout #rsidebar-wrapper:before{content: 'Right Sidebar'; }
+body#layout .tabviewsection:before{content: 'Tab Widget'; }
+body#layout #our-motive:before{content: 'Featured Posts'; }
+body#layout #our-motive:before,
+
+body#layout .tabviewsection:before,
+body#layout .logo:before,
+body#layout #ad-wrapper:before,
+body#layout footer:before,
+body#layout #main-wrapper:before,
+body#layout #rsidebar-wrapper:before {background-color: #00ab6f; color: #fff; padding: 15px 0; display: block; font-size: 23px; text-align: center; margin: 0 4px; margin-bottom: 8px; text-transform: uppercase; font-family: open sans,arial; }
+ ]]>
